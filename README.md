@@ -2,12 +2,13 @@
 ##[Youtube](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)
 ### Tips: Becareful of spaces and lettercase
 
+```
 $ who am i // show computer info
 
 $ clear // clear screen
 
 $ cat > [filename] // write into [filename]
-end with ctrl + d
+				   //end with ctrl + d
 $ cat [filename] // read [filename]
 
 $ mkdir [newDirName] // make a new dir
@@ -83,4 +84,4 @@ ss7.sh: count files in dir // $ sh ss7.sh *
 ss8.sh: Arithmetic operations
 
 
-
+```

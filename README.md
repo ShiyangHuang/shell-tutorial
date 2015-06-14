@@ -1,4 +1,5 @@
 # Shell commands tutorial
+##[Youtube](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)
 ### Tips: Becareful of spaces and lettercase
 
 $ who am i // show computer info

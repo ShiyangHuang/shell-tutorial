@@ -9,6 +9,7 @@ $ clear // clear screen
 
 $ cat > [filename] // write into [filename]
 				   //end with ctrl + d
+$ cat >> [filename] // append to [filename]
 $ cat [filename] // read [filename]
 
 $ mkdir [newDirName] // make a new dir
@@ -69,6 +70,10 @@ $ echo $# // 3 the number of words
 $ set `[command]` // $set `cat test`
 $ echo $* // will execute the command
 
+$ echo $? // show how many errors with commands
+
+use [ "$a" = "$b" ] instead of [ $a -eq $b ]
+
 shell script:
 save [shellfile] with end of .sh
 $ sh [shellfile] // run shell script
@@ -82,6 +87,28 @@ ss5.sh: change permission to 744 // $ sh ss5.sh [filename]
 ss6.sh: rename file with user info // $sh ss6.sh [filename]
 ss7.sh: count files in dir // $ sh ss7.sh *
 ss8.sh: Arithmetic operations
+ss9.sh: Floating Point Arithmetic
+ss10.sh: Escape Sequences // commands with '/'
+ss11.sh: tput-in action
+if-then.sh: if-then statement
+compare.sh: if-elif-else, -lt -gt
+file-test.sh: test file attributes
+string-test.sh: string tests
+ans.sh: -a for and
+count.sh: wc -c for count, | connect output and input
+or.sh: -o for or, check vowel
+case.sh: case $var in ;;
+while.sh: while action
+until.sh: until action
+for.sh: for action
 
+grep:
+grep [word] [filename]
+	-i ignore case; 
+	-n show line num;
+	-c count;
+	...
+
+ifs.sh: split by 
 
 ```

@@ -110,5 +110,19 @@ grep [word] [filename]
 	...
 
 ifs.sh: split by 
+pinfo.sh: IFS
+read.sh: `tty` add line num
+sleep.sh: sleep
+count2.sh: count words and lines
+help.sh: with commandlist, run man $cmd and save it to helpfile
+pattern.sh: loop in loop
+break.sh: break
+
+$ echo "Hello" ; cal ; banner "Hello"
+
+$ who
+$ sudo login # create new user
+
+
 
 ```
